@@ -1,13 +1,15 @@
-import { useState } from 'react'
+import Header from "../Header";
+import Container from "../Container";
 
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <h1>Reddit</h1>
-  )
+    <>
+      <Header />
+      <Container />
+    </>
+  );
 }
 
-export default App
+export default App;
