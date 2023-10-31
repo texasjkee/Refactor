@@ -1,0 +1,16 @@
+.topics {
+  background-color: transparent;
+  border: 0;
+  border-top: 1px solid #00000033;
+}
+
+.sidebar_item {
+  // background-color: green;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar_title {
+  font-size: 0.90rem;
+  text-transform: uppercase;
+}
